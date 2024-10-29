@@ -1,0 +1,16 @@
+{
+  "name": "bun-stripe-api",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/stripe": "^8.0.417",
+    "dotenv": "^16.4.5",
+    "stripe": "^17.2.1"
+  }
+}
